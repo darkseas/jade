@@ -976,7 +976,7 @@ exports.compileClient = function(str, options){
     fn = parse(str, options);
   }
 
-  return 'function template(locals) {\n' + fn + '\n}';
+  return 'function my-template(locals) {\n' + fn + '\n}';
 };
 
 
@@ -15032,3 +15032,4 @@ function unwrapReturns(src, result) {
 },{"uglify-js":45}]},{},[5])
 (5)
 });
+
